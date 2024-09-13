@@ -1,20 +1,51 @@
 body {
   margin: 20px;
+  /*
+  Challenge:
+  Find a web safe font you like, and add it 
+  to your card.
+  */
+  font-family: "Courier New", Courier, monospace;
+}
+
+.avatar {
+  width: 150px;
+  box-shadow: 10px 10px #eaf2d7;
+  border-radius: 10px;
 }
 
 .card {
   width: 400px;
+  margin: 0 auto;
   padding: 20px;
   display: flex;
   justify-content: space-around;
-  margin-left: auto;
-  margin-right: auto;
+  text-align: center;
+  background: #efcfe3;
+  color: #e27396;
+  border: 10px dotted #eaf2d7;
+  border-radius: 20px;
+  text-shadow: 5px 5px #eaf2d7;
+
+  /*
+  Challenge:
+  Find a color palette you like on Coolors.co
+  and use it in your business card.
+   */
 }
 
-.avatar {
-  width: 200px;
+p:hover,
+h3:hover,
+h4:hover {
+  color: #0496ff;
+  text-shadow: 5px 5px #fae0e4;
+}
+
+.card:hover {
+  background-color: #b3dee2;
+  color: bde0fe;
 }
 
 .border-blue {
-  border: 2px dotted blue;
+  border: 1px dotted blue;
 }
