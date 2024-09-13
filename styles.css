@@ -14,6 +14,10 @@ body {
   border-radius: 10px;
 }
 
+.avatar:hover {
+  box-shadow: 10px 10px #fae0e4;
+}
+
 .card {
   width: 400px;
   margin: 0 auto;
